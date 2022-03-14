@@ -109,6 +109,9 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.aws/config
+.aws/credentials
+tmp/
 
 # Spyder project settings
 .spyderproject
