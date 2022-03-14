@@ -1,0 +1,27 @@
+[
+    {
+        "begripCode": "Persoonsgegevens/AVG/BijzonderePersoonsgegevens/1.0",
+        "begripLabel": "bijzondere persoonsgegevens; (Uitvoeringswet AVG)",
+        "definitie": "Conform artikel 22 lid 1 van de Uitvoeringswet AVG rusten er beperkingen op het informatieobject omdat het bijzondere categorie\u00ebn van persoonsgegevens bevat."
+    },
+    {
+        "begripCode": "Persoonsgegevens/AVG/BijzonderePersoonsgegevens-Strafrechtelijk/1.0",
+        "begripLabel": "persoonsgegevens van strafrechtelijke aard (Uitvoeringswet AVG)",
+        "definitie": "Conform artikel 31 t/m 33 van de Uitvoeringswet AVG rusten er beperkingen op het informatieobject, omdat het persoonsgegevens bevat van strafrechtelijke aard."
+    },
+    {
+        "begripCode": "Persoonsgegevens/AVG/GeenPersoonsgegevens/1.0",
+        "begripLabel": "geen persoonsgegevens (Uitvoeringswet AVG)",
+        "definitie": "Het informatieobject bevat geen persoonsgegevens in de zin van de AVG."
+    },
+    {
+        "begripCode": "Persoonsgegevens/AVG/OverigePersoonsgegevens/1.0",
+        "begripLabel": "overige persoonsgegevens (Uitvoeringswet AVG)",
+        "definitie": "Het informatieobject bevat overige, niet-bijzondere persoonsgegevens waarvan nog geen belangenafweging is gemaakt ten aanzien van de beschikbaarstelling."
+    },
+    {
+        "begripCode": "Persoonsgegevens/AVG/NietBeoordeeld/1.0",
+        "begripLabel": "niet beoordeeld (Uitvoeringswet AVG)",
+        "definitie": "Het informatieobject is niet beoordeeld op het bevatten van gewone, strafrechtelijke of bijzondere persoonsgegevens."
+    }
+]

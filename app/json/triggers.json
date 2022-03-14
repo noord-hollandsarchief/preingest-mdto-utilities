@@ -1,0 +1,27 @@
+[
+    {
+        "begripCode": "Triggers/Overlijden/1.0",
+        "begripLabel": "Overlijden betrokkene",
+        "definitie": "Het overlijden van de betrokkene."
+    },
+    {
+        "begripCode": "Triggers/Creatie/1.0",
+        "begripLabel": "Creatie",
+        "definitie": "De creatie van het informatieobject."
+    },
+    {
+        "begripCode": "Triggers/Ontvangst/1.0",
+        "begripLabel": "Ontvangst",
+        "definitie": "Ontvangst van het informatieobject."
+    },
+    {
+        "begripCode": "Triggers/Afsluiting/1.0",
+        "begripLabel": "Afsluiting",
+        "definitie": "De handeling waarmee het informatieobject zijn definitieve inhoud krijgt: het definitief worden van een document of het afsluiten van een (zaak)dossier."
+    },
+    {
+        "begripCode": "Triggers/Openbaarmaking/1.0",
+        "begripLabel": "Openbaarmaking",
+        "definitie": "Het ter beschikking komen van informatieobject voor het publiek, zoals bedoeld in artikel 12 van de Auteurswet."
+    }
+]

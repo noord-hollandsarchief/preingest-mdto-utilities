@@ -1,0 +1,42 @@
+[
+    {
+        "begripCode": "http://rightsstatements.org/vocab/InC/1.0/",
+        "begripLabel": "RightsStatements -auteursrechtelijk beschermd",
+        "definitie": "Op het informatieobject rusten intellectuele eigendomsrechten."
+    },
+    {
+        "begripCode": "http://rightsstatements.org/vocab/InC-RUU/1.0/",
+        "begripLabel": "RightsStatements -auteursrechtelijk beschermd - rechthebbende(n) niet-lokaliseerbaar of niet-identificeerbaar",
+        "definitie": "Op het informatieobject rusten intellectuele eigendomsrechten, waarvan de houders onbekend of onvindbaar zijn."
+    },
+    {
+        "begripCode": "http://rightsstatements.org/vocab/NoC-OKLR/1.0/",
+        "begripLabel": "RightsStatements - niet auteursrechtelijk beschermd - andere juridische beperkingen",
+        "definitie": "Op het informatieobject rusten geen intellectuele eigendomsrechten, maar wel andere wettelijke beperkingen."
+    },
+    {
+        "begripCode": "http://rightsstatements.org/vocab/InC-OW-EU/1.0/",
+        "begripLabel": "RightsStatements - auteursrechtelijk beschermd - EU verweesd werk",
+        "definitie": "Het informatieobject is een verweesd werk conform het Europese recht."
+    },
+    {
+        "begripCode": "http://rightsstatements.org/vocab/NoC-CR/1.0/",
+        "begripLabel": "RightsStatements - niet auteursrechtelijk beschermd - contractuele beperkingen",
+        "definitie": "Op het informatieobject rusten geen intellectuele eigendomsrechten, maar wel contractuele bepalingen die beperkingen stellen aan de beschikbaarstelling."
+    },
+    {
+        "begripCode": "http://rightsstatements.org/vocab/CNE/1.0/",
+        "begripLabel": "RightsStatements - auteursrechtelijke status niet ge\u00ebvalueerd",
+        "definitie": "Het van toepassing zijn van intellectuele eigendomsrechten op het informatieobject is niet beoordeeld."
+    },
+    {
+        "begripCode": "http://rightsstatements.org/vocab/UND/1.0/",
+        "begripLabel": "RightsStatements - auteursrechtelijke bescherming niet bepaald",
+        "definitie": "Het van toepassing zijn van intellectuele eigendomsrechten op het informatieobject is niet vastgesteld"
+    },
+    {
+        "begripCode": "http://rightsstatements.org/vocab/NKC/1.0/",
+        "begripLabel": "RightsStatements - geen auteursrechtelijke beperkingen bekend",
+        "definitie": "Voor zover bekend rusten er op het informatieobject geen intellectuele eigendomsrechten."
+    }
+]

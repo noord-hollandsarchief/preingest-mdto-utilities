@@ -1,0 +1,6 @@
+begripCode;begripLabel;definitie
+Persoonsgegevens/AVG/BijzonderePersoonsgegevens/1.0;"bijzondere persoonsgegevens; (Uitvoeringswet AVG)";Conform artikel 22 lid 1 van de Uitvoeringswet AVG rusten er beperkingen op het informatieobject omdat het bijzondere categorieën van persoonsgegevens bevat.
+Persoonsgegevens/AVG/BijzonderePersoonsgegevens-Strafrechtelijk/1.0;persoonsgegevens van strafrechtelijke aard (Uitvoeringswet AVG);Conform artikel 31 t/m 33 van de Uitvoeringswet AVG rusten er beperkingen op het informatieobject, omdat het persoonsgegevens bevat van strafrechtelijke aard.
+Persoonsgegevens/AVG/GeenPersoonsgegevens/1.0;geen persoonsgegevens (Uitvoeringswet AVG);Het informatieobject bevat geen persoonsgegevens in de zin van de AVG.
+Persoonsgegevens/AVG/OverigePersoonsgegevens/1.0;overige persoonsgegevens (Uitvoeringswet AVG);Het informatieobject bevat overige, niet-bijzondere persoonsgegevens waarvan nog geen belangenafweging is gemaakt ten aanzien van de beschikbaarstelling.
+Persoonsgegevens/AVG/NietBeoordeeld/1.0;niet beoordeeld (Uitvoeringswet AVG);Het informatieobject is niet beoordeeld op het bevatten van gewone, strafrechtelijke of bijzondere persoonsgegevens.

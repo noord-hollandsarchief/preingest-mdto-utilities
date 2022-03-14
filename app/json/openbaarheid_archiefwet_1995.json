@@ -1,0 +1,42 @@
+[
+    {
+        "begripCode": "Openbaarheid/AW1995/BeperktOpenbaar-Levenssfeer/1.0",
+        "begripLabel": "beperkt openbaar; eerbiediging van de persoonlijke levenssfeer (Archiefwet 1995)",
+        "definitie": "Op grond van artikel 15 lid 1a van de Archiefwet 1995 is de openbaarheid van het informatieobject beperkt wegens eerbiediging van de persoonlijke levenssfeer."
+    },
+    {
+        "begripCode": "Openbaarheid/AW1995/BeperktOpenbaar-Staatsbelang/1.0",
+        "begripLabel": "beperkt openbaar; staatsbelang (Archiefwet 1995)",
+        "definitie": "Op grond van artikel 15 lid 1b van de Archiefwet 1995 is de openbaarheid van het informatieobject beperkt wegens de bescherming van de belangen van de Staat en zijn bondgenoten."
+    },
+    {
+        "begripCode": "Openbaarheid/AW1995/BeperktOpenbaar-Benadeling/1.0",
+        "begripLabel": "beperkt openbaar; onevenredige bevoordeling of benadeling (Archiefwet 1995)",
+        "definitie": "Op grond van artikel 15 lid 1c van de Archiefwet 1995 is de openbaarheid van het informatieobject beperkt ter voorkoming van onevenredige bevoordeling of benadeling."
+    },
+    {
+        "begripCode": "Openbaarheid/AW1995/BeperktOpenbaar-BijzonderePersoonsgegevens/1.0",
+        "begripLabel": "beperkt openbaar; bijzondere persoonsgegevens en/of persoonsgegevens van strafrechtelijke aard (Archiefwet 1995)",
+        "definitie": "Op grond van artikel 2a lid d van de Archiefwet 1995 is de openbaarheid van het informatieobject beperkt wegens de aanwezigheid van bijzondere persoonsgegevens en/of persoonsgegevens van strafrechtelijke aard."
+    },
+    {
+        "begripCode": "Openbaarheid/AW1995/BeperktOpenbaar-Particulier/1.0",
+        "begripLabel": "beperkt openbaar; contractuele afspraken met archiefvormer (Archiefwet 1995)",
+        "definitie": "Op grond van artikel 16 lid 1 van de Archiefwet 1995 is de openbaarheid wegens contractuele afspraken met de archiefvormer."
+    },
+    {
+        "begripCode": "Openbaarheid/AW1995/Openbaar/1.0",
+        "begripLabel": "openbaar (Archiefwet 1995)",
+        "definitie": "Op grond van artikel 14 van de Archiefwet 1995 is het informatieobject openbaar."
+    },
+    {
+        "begripCode": "Openbaarheid/AW1995/Openbaar-Milieu/1.0",
+        "begripLabel": "openbaar; milieu-informatie (Archiefwet 1995)",
+        "definitie": "Op grond van artikel 15a van de Archiefwet 1995 is het informatieobject openbaar omdat het milieu-informatie bevat."
+    },
+    {
+        "begripCode": "Openbaarheid/AW1995/NietBeoordeeld/1.0",
+        "begripLabel": "openbaarheid niet beoordeeld (Archiefwet 1995)",
+        "definitie": "De openbaarheid van het informatieobject op grond van de Archiefwet 1995 is niet beoordeeld."
+    }
+]

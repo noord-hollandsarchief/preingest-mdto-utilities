@@ -1,0 +1,6 @@
+begripCode;begripLabel;definitie
+Triggers/Overlijden/1.0;Overlijden betrokkene;Het overlijden van de betrokkene.
+Triggers/Creatie/1.0;Creatie;De creatie van het informatieobject.
+Triggers/Ontvangst/1.0;Ontvangst;Ontvangst van het informatieobject.
+Triggers/Afsluiting/1.0;Afsluiting;De handeling waarmee het informatieobject zijn definitieve inhoud krijgt: het definitief worden van een document of het afsluiten van een (zaak)dossier.
+Triggers/Openbaarmaking/1.0;Openbaarmaking;Het ter beschikking komen van informatieobject voor het publiek, zoals bedoeld in artikel 12 van de Auteurswet.

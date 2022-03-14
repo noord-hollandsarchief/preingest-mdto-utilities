@@ -1,0 +1,17 @@
+[
+    {
+        "begripCode": "IntellectueelEigendom/Databankenwet/Voorbehoud-TekstEnDatamining-n/1.0",
+        "begripLabel": "Auteursrecht voorbehouden op gebruik voor tekst- en datamining (Databankenwet)",
+        "definitie": "Op grond van artikel 4a lid b van de Databankenwet oefent de rechthebbende zijn recht uit om een voorbehoud te plaatsen bij het gebruik van het informatieobject voor tekst- en datamining."
+    },
+    {
+        "begripCode": "IntellectueelEigendom/Databankenwet/Voorbehoud-BeslotenBeschikbaarstelling-/1.0",
+        "begripLabel": "Beschikbaarstelling in een besloten netwerk contractueel niet toegestaan (Databankenwet)",
+        "definitie": "Op grond van artikel 5 lid 2 van de Databankenwet (en hieruit volgend artikel 15h van de Auteurswet) is met de rechthebbende overeengekomen dat beschikbaarstelling van het informatieobject binnen een besloten netwerk niet is toegestaan."
+    },
+    {
+        "begripCode": "IntellectueelEigendom/Databankenwet/Voorbehoud-OpenbareMacht /1.0",
+        "begripLabel": "Auteursrecht voorbehouden op door of vanwege de openbare macht openbaar gemaakte werken (Databankenwet)",
+        "definitie": "Op grond van artikel 8 lid 2 van de Databankenwet oefent de rechthebbende zijn recht uit om een voorbehoud te plaatsen bij herhaalde en systematische opvraging of hergebruik van substanti\u00eble of niet-substanti\u00eble delen van de inhoud van het informatieobject, dat door of vanwege de openbare macht openbaar is gemaakt."
+    }
+]

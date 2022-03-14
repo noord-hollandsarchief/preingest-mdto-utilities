@@ -1,0 +1,192 @@
+[
+    {
+        "begripCode": "https://choosealicense.com/licenses/0bsd/",
+        "begripLabel": "BSD Zero Clause License",
+        "definitie": "Op het informatieobject is de BSD Zero Clause License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/afl-3.0/",
+        "begripLabel": "Academic Free License v3.0",
+        "definitie": "Op het informatieobject is de Academic Free License v3.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/agpl-3.0/",
+        "begripLabel": "GNU Affero General Public License v3.0",
+        "definitie": "Op het informatieobject is de GNU Affero General Public License v3.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/apache-2.0",
+        "begripLabel": "Apache License 2.0",
+        "definitie": "Op het informatieobject is de Apache License 2.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/artistic-2.0",
+        "begripLabel": "Artistic License 2.0",
+        "definitie": "Op het informatieobject is de Artistic License 2.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/bsd-2-clause",
+        "begripLabel": "BSD 2-Clause \"Simplified\" License",
+        "definitie": "Op het informatieobject is de BSD 2-Clause \"Simplified\" License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/bsd-3-clause-clear",
+        "begripLabel": "BSD 3-Clause Clear License",
+        "definitie": "Op het informatieobject is de BSD 3-Clause Clear License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/bsd-3-clause",
+        "begripLabel": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "definitie": "Op het informatieobject is de BSD 3-Clause \"New\" or \"Revised\" License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/bsd-4-clause",
+        "begripLabel": "BSD 4-Clause \"Original\" or \"Old\" License",
+        "definitie": "Op het informatieobject is de BSD 4-Clause \"Original\" or \"Old\" License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/bsl-1.0",
+        "begripLabel": "Boost Software License 1.0",
+        "definitie": "Op het informatieobject is de Boost Software License 1.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/cecill-2.1",
+        "begripLabel": "CeCILL Free Software License Agreement v2.1",
+        "definitie": "Op het informatieobject is de CeCILL Free Software License Agreement v2.1 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/ecl-2.0",
+        "begripLabel": "Educational Community License v2.0",
+        "definitie": "Op het informatieobject is de Educational Community License v2.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/epl-1.0",
+        "begripLabel": "Eclipse Public License 1.0",
+        "definitie": "Op het informatieobject is de Eclipse Public License 1.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/epl-2.0",
+        "begripLabel": "Eclipse Public License 2.0",
+        "definitie": "Op het informatieobject is de Eclipse Public License 2.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/eupl-1.1",
+        "begripLabel": "European Union Public License 1.1",
+        "definitie": "Op het informatieobject is de European Union Public License 1.1 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/eupl-1.2",
+        "begripLabel": "European Union Public License 1.2",
+        "definitie": "Op het informatieobject is de European Union Public License 1.2 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/gpl-2.0",
+        "begripLabel": "GNU General Public License v2.0",
+        "definitie": "Op het informatieobject is de GNU General Public License v2.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/gpl-3.0",
+        "begripLabel": "GNU General Public License v3.0",
+        "definitie": "Op het informatieobject is de GNU General Public License v3.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/isc",
+        "begripLabel": "ISC License",
+        "definitie": "Op het informatieobject is de ISC License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/lgpl-2.1",
+        "begripLabel": "GNU Lesser General Public License v2.1",
+        "definitie": "Op het informatieobject is de GNU Lesser General Public License v2.1 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/lgpl-3.0",
+        "begripLabel": "GNU Lesser General Public License v3.0",
+        "definitie": "Op het informatieobject is de GNU Lesser General Public License v3.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/lppl-1.3c",
+        "begripLabel": "LaTeX Project Public License v1.3c",
+        "definitie": "Op het informatieobject is de LaTeX Project Public License v1.3c van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/mit-0",
+        "begripLabel": "MIT No Attribution",
+        "definitie": "Op het informatieobject is de MIT No Attribution van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/mit",
+        "begripLabel": "MIT License",
+        "definitie": "Op het informatieobject is de MIT License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/mpl-2.0",
+        "begripLabel": "Mozilla Public License 2.0",
+        "definitie": "Op het informatieobject is de Mozilla Public License 2.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/ms-pl",
+        "begripLabel": "Microsoft Public License",
+        "definitie": "Op het informatieobject is de Microsoft Public License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/ms-rl",
+        "begripLabel": "Microsoft Reciprocal License",
+        "definitie": "Op het informatieobject is de Microsoft Reciprocal License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/mulanpsl-2.0",
+        "begripLabel": "Mulan Permissive Software License, Version 2",
+        "definitie": "Op het informatieobject is de Mulan Permissive Software License, Version 2 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/ncsa",
+        "begripLabel": "University of Illinois/NCSA Open Source License",
+        "definitie": "Op het informatieobject is de University of Illinois/NCSA Open Source License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/odbl-1.0",
+        "begripLabel": "Open Data Commons Open Database License v1.0",
+        "definitie": "Op het informatieobject is de Open Data Commons Open Database License v1.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/ofl-1.1",
+        "begripLabel": "SIL Open Font License 1.1",
+        "definitie": "Op het informatieobject is de SIL Open Font License 1.1 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/osl-3.0",
+        "begripLabel": "Open Software License 3.0",
+        "definitie": "Op het informatieobject is de Open Software License 3.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/postgresql",
+        "begripLabel": "PostgreSQL License",
+        "definitie": "Op het informatieobject is de PostgreSQL License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/unlicense",
+        "begripLabel": "The Unlicense",
+        "definitie": "Op het informatieobject is de The Unlicense van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/upl-1.0",
+        "begripLabel": "Universal Permissive License v1.0",
+        "definitie": "Op het informatieobject is de Universal Permissive License v1.0 van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/vim",
+        "begripLabel": "Vim License",
+        "definitie": "Op het informatieobject is de Vim License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/wtfpl",
+        "begripLabel": "Do What The F*ck You Want To Public License",
+        "definitie": "Op het informatieobject is de Do What The F*ck You Want To Public License van toepassing."
+    },
+    {
+        "begripCode": "https://choosealicense.com/licenses/zlib",
+        "begripLabel": "zlib License",
+        "definitie": "Op het informatieobject is de zlib License van toepassing."
+    }
+]

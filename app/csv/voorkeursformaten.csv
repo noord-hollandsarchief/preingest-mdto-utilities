@@ -1,0 +1,47 @@
+type;extension;version;description;puid;categoryFormat;visibility;visibilityAfterConversion;onlyViewableExternTool
+Audio;WAVE;;Waveform Audio;fmt/141;Voorkeur;;X;
+Audio;WAVE;;Waveform Audio;fmt/142;Voorkeur;;X;
+Audio;WAVE;;Waveform Audio;fmt/145;Voorkeur;;X;
+Audio;WAV;;Waveform Audio;fmt/141;Voorkeur;;X;
+Audio;WAV;;Waveform Audio;fmt/142;Voorkeur;;X;
+Audio;WAV;;Waveform Audio;fmt/145;Voorkeur;;X;
+Audio;WAV;2 Generic;Broadcast WAVE;fmt/527;Voorkeur;;X;
+Audio;FLAC;;Free Lossless Audio Codec;fmt/279;Voorkeur;;X;
+Audio;MP3;;MPEG 1/2 Audio Layer 3;fmt/134;Acceptabel;X;;
+Audio;M4A;;Apple Lossless Audio Codec;fmt/596;Acceptabel;;X;
+Database;SQL;;Structured Query Language Data;fmt/206;Voorkeur;X;;
+Database;SIARD;2,1;"Software Independent Archiving of
+Relational Databases";fmt/1196;Voorkeur;;;X
+Database;ODB;1,2;OpenDocument Database Format;fmt/424;Voorkeur;;;X
+Document (tekst);PDF;2a;Acrobat PDF/A - Portable Document Format;fmt/476;Voorkeur;X;;
+Document (tekst);PDF;1a;"Acrobat PDF/A -
+Portable Document Format";fmt/95;Voorkeur;X;;
+Document (tekst);PDF;1,7;"Acrobat PDF 1.7 - Portable Document
+Format";fmt/276;Acceptabel;X;;
+Document (tekst);ODT;1,2;OpenDocument Text;fmt/291;Voorkeur;X;;
+Document (tekst);DOCX;vanaf 2007;Microsoft Word for Windows;fmt/412;Acceptabel;X;;
+E-mail;EML;;Mime Email;fmt/950;Voorkeur;X;;
+E-mail;MSG;97-2003;Microsoft Outlook Email Message;x-fmt/249;Acceptabel;;X;
+Afbeelding (raster);TIFF;;Tagged Image File Format;fmt/353;Voorkeur;X;;
+Afbeelding (raster);PNG;1,2;Portable Network Graphics;fmt/13;Voorkeur;X;;
+Afbeelding (raster);JPEG;;JPEG File Interchange Format;fmt/44;Acceptabel;X;;
+Afbeelding (raster);JPG;;Raw JPEG Stream;fmt/41;Acceptabel;X;;
+Afbeelding (raster);JP2;;JPEG 2000 part 1;x-fmt/392;Acceptabel;X;;
+Afbeelding (raster);JPX;;JPEG 2000 part 2;fmt/151;Acceptabel;X;;
+Afbeelding (raster);GIF;89a;Graphics Interchange Format;fmt/4;Voorkeur;X;;
+Vector afbeelding;SVG;1,1;Scalable Vector Graphics;fmt/92;Voorkeur;X;;
+Presentatie;ODP;1,2;OpenDocument Presentation;fmt/293;Voorkeur;X;;
+Presentatie;PDF;2a;"Acrobat PDF/A - Portable Document
+Format";fmt/476;Voorkeur;X;;
+Presentatie;PDF;1a;Acrobat PDF/A - Portable Document Format;fmt/95;Voorkeur;X;;
+Presentatie;PDF;1,7;Acrobat PDF 1.7 - Portable Document Format;fmt/276;Acceptabel;X;;
+Presentatie;PPTX;vanaf 2007;Microsoft Powerpoint for Windows;fmt/215;Acceptabel;X;;
+Spreadsheet;ODS;1,2;OpenDocument Spreadsheet;fmt/295;Voorkeur;X;;
+Spreadsheet;CSV;;Comma Separated Values;x-fmt/18;Voorkeur;X;;
+Spreadsheet;XLSX;vanaf 2007;Microsoft Excel for Windows;fmt/214;Acceptabel;X;;
+Video;MXF;;Material Exchange Format;fmt/200;Voorkeur;;X;
+Video;WEBM;;WebM;fmt/573;Voorkeur;X;;
+Video;MP4;;MPEG-4 Media File;fmt/199;Acceptabel;X;;
+Video;MKV;1-4;Matroska;fmt/569;Acceptabel;;X;
+Website;WARC;1,1;Web ARChive;fmt/1281;Voorkeur;X;;
+E-books;EPUB;;ePub format;fmt/483;Voorkeur;X;;
