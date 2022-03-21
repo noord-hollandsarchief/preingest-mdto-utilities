@@ -9,6 +9,7 @@ from voorkeursformaten import PreferenceFormat
 from fixity import Fixity
 from begrippen import Category, Concepts
 from oletools.olevba import VBA_Parser, TYPE_OLE, TYPE_OpenXML, TYPE_Word2003_XML, TYPE_MHTML 
+from quicksand.quicksand import quicksand
 
 app = FastAPI()
 
@@ -238,6 +239,24 @@ async def scan_for_macros(base64_encoded_full_path_file:str):
         vbaparser.close()
         
     return { "result" : vba_output } 
+
+@app.post("/utilities/scan_for_suspicion/{base64_encoded_full_path_file}")
+async def scan_for_suspicion(base64_encoded_full_path_file:str):
+    decodedBytes = base64.b64decode(base64_encoded_full_path_file)
+    target_file = str(decodedBytes, "utf-8")
+    if not os.path.isfile(target_file):
+        raise HTTPException(status_code=400, detail='File "{}" not found'.format(target_file)) 
+    
+    result = None
+    try:
+        qs2 = quicksand(target_file)
+        qs2.process()
+        result = qs2.results 
+               
+    except Exception as err:  
+        raise HTTPException(status_code=400, detail="QuickSand execution error: {0}".format(err))  
+    
+    return { "scan" : result }
 
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)

@@ -13,7 +13,7 @@ RUN 		apk add tar
 RUN 		apk add dos2unix
 RUN			apk add coreutils
 RUN			apk add py-cryptography
-RUN 		apk add gcc musl-dev libffi-dev openssl-dev python3-dev
+RUN 		apk add gcc musl-dev libffi-dev openssl-dev python3-dev zlib-dev jpeg-dev
 RUN 		apk --no-cache add \
 				binutils \
 				curl \
