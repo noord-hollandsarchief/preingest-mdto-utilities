@@ -13,7 +13,7 @@ RUN 		apk add tar
 RUN 		apk add dos2unix
 RUN			apk add coreutils
 RUN			apk add py-cryptography
-RUN 		apk add gcc musl-dev libffi-dev openssl-dev python3-dev zlib-dev jpeg-dev
+RUN 		apk add gcc musl-dev libffi-dev openssl-dev python3-dev zlib-dev jpeg-dev g++ make swig
 RUN 		apk --no-cache add \
 				binutils \
 				curl \
@@ -46,7 +46,7 @@ COPY ./requirements.txt /app/requirements.txt
 RUN python -m pip install --upgrade pip
 #
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
-# 
+#
 COPY app/ /app
 # 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]

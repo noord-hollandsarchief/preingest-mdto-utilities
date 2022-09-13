@@ -2,13 +2,16 @@ import os
 import base64
 import uvicorn
 import subprocess
+import oletools.oleid
+import oletools.olevba
+import oletools.oleobj
+import fitz
 
 from uuid import UUID, uuid4
 from fastapi import FastAPI, HTTPException
 from voorkeursformaten import PreferenceFormat
 from fixity import Fixity
 from begrippen import Category, Concepts
-from oletools.olevba import VBA_Parser, TYPE_OLE, TYPE_OpenXML, TYPE_Word2003_XML, TYPE_MHTML 
 from quicksand.quicksand import quicksand
 
 app = FastAPI()
@@ -208,36 +211,35 @@ async def scan_for_macros(base64_encoded_full_path_file:str):
     target_file = str(decodedBytes, "utf-8")
     if not os.path.isfile(target_file):
         raise HTTPException(status_code=400, detail='File "{}" not found'.format(target_file)) 
-    vbaparser = None
+    vba = None
     vba_output = {}    
     try:
-        vbaparser = VBA_Parser(target_file)
-        results = vbaparser.analyze_macros()
-        analyze = []
-        for kw_type, keyword, description in results:
-            analyze_item = { "type" : kw_type, "keyword" : keyword, "description" : description }
-            analyze.append(analyze_item)   
-        vba_output["analyzeMacros"] = analyze   
-            
-        files = [] 
-        for (filename, stream_path, vba_filename, vba_code) in vbaparser.extract_macros():
-            item = { "filename" : filename, "oleStream" : stream_path, "vbaFilename" : vba_filename, "vbaCode" : vba_code }
-            files.append(item)     
-        vba_output["extractMacros"] = files
-        vba_output["autoExecKeyword"] = vbaparser.nb_autoexec 
-        vba_output["suspiciousKeyword"] = vbaparser.nb_suspicious    
-        vba_output["iocs"] = vbaparser.nb_iocs    
-        vba_output["hexObfuscatedStrings"] = vbaparser.nb_hexstrings  
-        vba_output["base64ObfuscatedStrings"] = vbaparser.nb_base64strings 
-        vba_output["dridexObfuscatedStrings"] = vbaparser.nb_dridexstrings   
-        vba_output["vbaObfuscatedStrings"] = vbaparser.nb_vbastrings         
-        vba_output["reveal"] = vbaparser.reveal() 
+        oid = oletools.oleid.OleID(target_file)
+        vba = oletools.olevba.VBA_Parser(target_file)
+        ole = oletools.oleobj.find_ole(target_file, None)
+                 
+        indicators_list = oid.check()
+        indicators = []
+        for i in indicators_list:
+            indicator = { "id" : i.id, "name" : i.name, "value" : repr(i.value), "description" : i.description }
+            indicators.append(indicator)
+            if i.id == 'ext_rels':
+                vba_output["embeddedLinks"] = "false" if eval(repr(i.value)) == 0 else "true"                
+            #print('Indicator id=%s name="%s" type=%s value=%s' % (i.id, i.name, i.type, repr(i.value)))
+            #print('description:', i.description)        
+        vba_output["vbaMacros"] = "true" if vba.detect_vba_macros() else "false"
+        vba_output["xmlMacros"] = "true" if vba.detect_xlm_macros() else "false"
+        vba_output["vbaEncrypted"] = "true" if vba.detect_is_encrypted() else "false"
+        vba_output["embeddedFiles"] = "true" if not ole is None else "false"
+        
+        vba_output["indicators"] = indicators
         
     except Exception as err:        
             raise HTTPException(status_code=400, detail="OLETools execution error: {0}".format(err))  
     finally:
-        vbaparser.close()
-        
+        if not vba is None:
+            vba.close()        
+    
     return { "result" : vba_output } 
 
 @app.post("/utilities/scan_for_suspicion/{base64_encoded_full_path_file}")
@@ -258,7 +260,36 @@ async def scan_for_suspicion(base64_encoded_full_path_file:str):
     
     return { "scan" : result }
 
+@app.post("/utilities/find_embedded_files/{base64_encoded_full_path_file}")
+async def find_embedded_files(base64_encoded_full_path_file:str):
+    result = None  
+    decodedBytes = base64.b64decode(base64_encoded_full_path_file)
+    target_file = str(decodedBytes, "utf-8")
+    if not os.path.isfile(target_file):
+        raise HTTPException(status_code=400, detail='File "{}" not found'.format(target_file)) 
+    
+    embedded = {}
+    ef_list = []
+    try:
+        doc = fitz.open(target_file)
+        embedded["count"] = doc.embfile_count()
+        
+        for i in range(doc.embfile_count()):  # number of embedded files
+            info = doc.embfile_info(i)  # get one info dict
+            ef = { "name" : info["name"], 
+                  #"file" : info["file"], 
+                  #"description" : info["desc"], 
+                  "length" : info["length"], 
+                  "size" : info["size"] }
+            ef_list.append(ef)
+            
+        embedded["files"] = ef_list        
+        result = embedded
+           
+    except Exception as err:  
+        raise HTTPException(status_code=400, detail="PyMuPdf execution error: {0}".format(err))  
+    
+    return { "embedded" : result }    
+
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
-
-
