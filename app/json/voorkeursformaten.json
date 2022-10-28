@@ -152,6 +152,17 @@
         "visibility": "X",
         "visibilityAfterConversion": "",
         "onlyViewableExternTool": ""
+    },    
+    {
+        "type": "Document (tekst)",
+        "extension": "PDF",
+        "version": "3a",
+        "description": "Acrobat PDF/A - Portable Document Format",
+        "puid": "fmt/479",
+        "categoryFormat": "Voorkeur",
+        "visibility": "X",
+        "visibilityAfterConversion": "",
+        "onlyViewableExternTool": ""
     },
     {
         "type": "Document (tekst)",
